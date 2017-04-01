@@ -1,0 +1,300 @@
+@media screen and (min-width: 320px) {
+
+	.mobile
+	{
+		display: block;
+		margin: 0px auto;
+	}
+
+	.desktop
+	{
+		display: none;
+	}
+
+	body 
+	{	
+		margin: 0;
+		padding: 0;
+		font-size: 100%;
+	    font-family:  "Arvo", "Open Sans", Arial ;
+	    background-color: #0191c8;
+	}
+
+	h1, h4
+	{
+		margin: 0px;
+		padding: 0px;
+		padding-top: 4%;
+		text-align: center;
+	}
+
+	/*Navigation Bar styles*/
+	nav
+	{
+		margin: 0px;
+		padding: 0px;
+		font-size: 0px;
+		color: white;
+		background-color: #005B9A;
+	}
+
+	nav > ul
+	{	
+		margin: 0px;
+		padding: 0px;
+	}
+
+	nav > ul > li
+	{
+		list-style-type: none;
+		padding-left: 35%;
+		border: 1px;
+		border-style: solid;
+		display: block;
+		line-height: 50px;
+	}
+
+	nav > ul > li > a 
+	{
+		display: block;
+		width: 100px;
+		height: 50px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+
+	}
+
+	nav > ul >li > a:link
+	{
+		color: white;
+	}
+
+	nav > ul > li:hover {
+
+		background-color: #003459;
+	}
+
+	nav >ul > li > a:visited 
+	{
+		color: white;
+	}
+
+	/*links status*/
+	a:link 
+	{
+		color: blue;
+	}
+
+	a:visited 
+	{
+		color: purple;
+	}
+
+	/* Section style */
+	section, footer
+	{
+		display: block;
+		padding-left: 3%;
+		padding-right: 3%;
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+	}
+
+	footer 
+	{
+	    display: block;
+	    text-align: center;
+	    font-size: 85%;
+	    font-weight: bold;
+	    color: white;
+	    border: 1px solid #005B9A;
+	    border-top: 1px solid black;
+	    background-color: #005B9A; 
+	}
+
+	/*About section style*/
+	#About
+	{
+		border-top: 1px solid white;
+		background-color: #19C549;
+	}
+
+	#phrase	
+	{
+		text-align: center;
+		font-size: 100%;
+	}
+	
+	/*Project section style*/
+	#Projects
+	{	
+		background-color: #FFA14E;
+	}
+
+	.half_right_container
+	{
+		width: 45%;
+		float: right;
+	}
+	.half_left_container{
+		width: 45%;
+		float:left;
+	}
+	.description
+	{
+		padding-left: 1%;
+	}
+
+	/*Work section style*/
+	#Work
+	{
+		background-color: #FFFF71;
+	}
+
+	#work_item
+	{
+		list-style-type: none;
+	}
+
+	#logo
+	{
+		width: 30px;
+		height: 30px;
+		float: left;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 1%;
+	}
+
+	/*Research section style*/
+	#Research
+	{
+		margin-top:0px;
+		background-color: #5FDADB;
+	}
+
+	/*Contact section style*/
+	#Contact
+	{
+		background-color: #A8DADC;
+	}
+
+	section > ul > li
+	{
+		padding-bottom: 5%;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	
+	nav > ul > li
+	{
+		padding-left: 42%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	h1, h4
+	{
+		padding-top: 1.5%;
+	}
+
+	nav > ul > li
+	{
+		padding-left: 43%;
+	}
+
+	section > ul > li
+	{
+		padding-bottom: 2%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	.desktop
+	{
+		display: block;
+		width: 50%;
+		margin: 0px auto;
+	}
+
+	.mobile
+	{
+		display: none;
+	}
+
+	body
+	{
+		font-size: 110%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	
+	.desktop
+	{
+		display: block;
+		margin: 0px auto;
+	}
+
+	.mobile
+	{
+		display: none;
+	}
+
+	/*General style*/
+	section
+	{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	section > ul > li
+	{
+		padding-top: 0%;
+		padding-bottom: 1%;
+	}
+
+	h1, h4
+	{
+		padding-top: 1%;
+	}
+
+	/*Naviation Bar Style*/
+	nav
+	{
+		text-align: center;
+	}
+
+	nav > ul > li
+	{
+		display: inline-block;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 1%;
+		padding-bottom: 0.5%;
+		border-style: none;
+	}
+
+	nav > ul > li > a
+	{
+		width: 120px;
+		height: 60px;
+		font-size: 25px;
+	}
+
+	/*About section style*/
+	#About
+	{
+		border-top: 1px solid #005B9A;
+	}
+
+	#phrase
+	{
+		font-size: 120%;
+	}
+}
