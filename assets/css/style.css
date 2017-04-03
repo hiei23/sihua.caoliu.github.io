@@ -28,6 +28,9 @@
 		text-align: center;
 	}
 
+	p, li{
+		line-height: 150%;
+	}
 	/*Navigation Bar styles*/
 	nav
 	{
@@ -135,7 +138,7 @@
 
 	.half_right_container
 	{
-		width: 45%;
+		width: 55%;
 		float: right;
 	}
 	.half_left_container{
@@ -210,6 +213,16 @@
 	section > ul > li
 	{
 		padding-bottom: 2%;
+	}
+
+	.half_right_container
+	{
+		width: 30%;
+		float: right;
+	}
+	.half_left_container{
+		width: 60%;
+		float:left;
 	}
 }
 
