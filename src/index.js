@@ -27,6 +27,7 @@ const colors = {
   brandyPunch: '#cc9436',
   pomegranate: '#f44336',
   white: '#FFFFFF',
+  navy: '#08415C'
 }
 
 const options = {
@@ -35,7 +36,7 @@ const options = {
       primary: colors.white,
     },
     primary:  {
-      main: colors.hippieBlue,
+      main: colors.navy,
     },
     secondary:{
       main: colors.blumine
