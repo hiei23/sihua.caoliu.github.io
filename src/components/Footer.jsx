@@ -1,10 +1,7 @@
 import React from 'react';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton'
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import { GithubCircle, LinkedinBox, Email } from 'mdi-material-ui/'
-import { CONTACT_INFO } from './Content'
 import SocialMediaIconList from './SocialMediaIconList'
 
 const styles = (theme) => (
@@ -26,26 +23,6 @@ const styles = (theme) => (
     }
   }
 )
-
-const CONTACT_LOGOS = {
-  github: GithubCircle,
-  linkedIn: LinkedinBox,
-  email: Email,
-}
-
-const SocialMediaMenu = ({classes}) => {
-  const contactTypes = Object.keys(CONTACT_INFO)
-  const socialMediaList = contactTypes.map(type => {
-    const refTag = type === 'email'? `mailto:${CONTACT_INFO[type]}`: CONTACT_INFO[type]
-    const Logo = CONTACT_LOGOS[type]
-    return (
-      <IconButton key={type} component='a' href={refTag} className={classes.icon}>
-        <Logo className={classes.icon} />
-      </IconButton>
-    )
-  })
-  return socialMediaList
-}
 
 const Footer = ({classes}) => {
   return(
