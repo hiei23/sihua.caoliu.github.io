@@ -14,7 +14,6 @@ const styles = (theme) => (
       bottom: 0,
       borderTop: `2px solid ${theme.palette.navy}`,
       backgroundColor: `${theme.palette.navy}`,
-      position: 'fixed',
       textAlign: 'center',
       width: '100%',
       display: 'flex',
