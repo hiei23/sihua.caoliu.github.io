@@ -1,0 +1,65 @@
+Specialization
+ - Game design
+ - Systems
+ - Web
+ - HCI
+ - AI
+ - Data Science
+
+Introductory courses
+  - Programming
+  - Fundamental for Computer Science
+  - Computer Architecture
+  - Low level programming
+  - Databases
+
+Theory
+  - Logic, proof,
+  - Theory of computation
+  - Data Structures
+  - Algorithms
+  - Computational Complexity
+
+Software engineering
+  - Software design
+  - How to work with medium and large teams
+  - Scalability
+  - Design Patterns
+
+Maths
+  - Calculus
+  - Statistics, Probability and Distribution
+  - Linear Algebra
+
+AI
+  - Search Problems
+  - Decision making Algorithms
+  - Neural Networks
+  - Deep Learning
+  - Machine Learning
+  - Natural Language Processing
+
+Web
+  - Create websites from scratch
+  - Learn to use a framework
+
+Game design
+  - Game programming
+  - Monetization
+  - Game mechanics
+  - Level design
+  - Game testing
+
+  Human Computer Interaction (HCI)
+  - Interface design
+  - Usability test
+  - Research methods
+  - Design Process
+
+System
+  - Concurrency
+  - Distributed Systems
+  - Networks
+  - Multiprocessors
+  - Scheduling
+  - Operating Systems

@@ -1,0 +1,49 @@
+{
+  "name": "tb_react_material_button",
+  "private": true,
+  "version": "0.0.1",
+  "description": "spinner component",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir build",
+    "test:watch": "jest --verbose --watch",
+    "test:nocover": "jest --verbose",
+    "test": "jest --verbose --coverage",
+    "lint": "node $(npm bin)/eslint --ext=jsx,js .",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "husky": "^1.1.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --no-semi --trailing-comma es5 --single-quote --write",
+      "babel ./src --out-dir build",
+      "git add"
+    ]
+  },
+  "author": "TouchBistro",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@material-ui/codemod": "^1.1.0",
+    "@material-ui/core": "^1.2.2",
+    "@material-ui/icons": "^2.0.0",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-spinkit": "^3.0.0",
+    "recompose": "^0.30.0",
+    "tb_icons": "file:../tb_icons"
+  }
+}
