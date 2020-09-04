@@ -20,18 +20,18 @@ const styles = (theme) => ({
   },
   card:{
     marginTop: 25,
-    width: 400,
-    maxWidth: 400,
-    backgroundColor: `${theme.palette.pomegranate}`,
+    width: 250,
+    maxWidth: 200,
+    backgroundColor: `${theme.palette.white}`,
     paddingTop: 25,
     paddingLeft: 25,
     paddingRight: 25,
-    boxShadow: '-2px 4px 2px -2px rgba(184,180,186,1)'
+    border: '1px solid rgba(184,180,186,1)',
   },
   media: {
     border: `1px solid ${theme.palette.blumine}`,
-    height: 500,
-    width: 400,
+    height: 250,
+    width: 200,
     borderRadius: 5,
   },
   listItem: {

@@ -3,14 +3,13 @@ import { withStyles } from '@material-ui/core/styles';
 import { PROJECTS } from './Content'
 import Project from './Project'
 
-const styles = (theme) => ({
+const styles = () => ({
   container: {
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     lineHeight: 1.5,
-    backgroundColor: `${theme.palette.blumine}`
   }
 })
 
