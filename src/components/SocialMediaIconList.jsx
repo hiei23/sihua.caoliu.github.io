@@ -9,7 +9,7 @@ const styles = (theme) => (
     icon:{
       height: 32,
       width: 32,
-      color: `${theme.palette.blumine}`
+      color: `${theme.palette.white}`
     }
   }
 )

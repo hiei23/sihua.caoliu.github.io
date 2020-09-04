@@ -22,7 +22,7 @@ const styles = (theme) => ({
     marginTop: 25,
     width: 400,
     maxWidth: 400,
-    backgroundColor: `${theme.palette.dawnPink}`,
+    backgroundColor: `${theme.palette.pomegranate}`,
     paddingTop: 25,
     paddingLeft: 25,
     paddingRight: 25,
