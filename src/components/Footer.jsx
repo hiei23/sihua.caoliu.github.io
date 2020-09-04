@@ -12,8 +12,8 @@ const styles = (theme) => (
     footer: {
       left: 0,
       bottom: 0,
-      borderTop: `2px solid ${theme.palette.blumine}`,
-      backgroundColor: `${theme.palette.hippieBlue}`,
+      borderTop: `2px solid ${theme.palette.navy}`,
+      backgroundColor: `${theme.palette.navy}`,
       position: 'fixed',
       textAlign: 'center',
       width: '100%',
@@ -23,7 +23,7 @@ const styles = (theme) => (
     icon:{
       height: 32,
       width: 32,
-      color: `${theme.palette.blumine}`
+      color: `${theme.palette.white}`
     }
   }
 )

@@ -5,7 +5,7 @@ import { ABOUT } from './Content'
 const styles = (theme) => (
   {
     container: {
-      backgroundColor: `${theme.palette.dawnPink}`,
+      backgroundColor: `${theme.palette.white}`,
       textAlign: 'center',
       height: 'auto'
     }
