@@ -1,28 +1,24 @@
-import React, { Component } from 'react'
-import { withStyles } from '@material-ui/core/styles'
-
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Routes from './components/Routes'
+import React, { Component } from "react"
+import { withStyles } from "@material-ui/core/styles"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import About from "./components/About"
+import Project from "./components/Portfolio"
+import Contact from "./components/Contact"
 
 class App extends Component {
   render() {
     return (
-      <div className={this.props.classes.app}>
+      <>
         <Header />
-          <Routes />
+        <About />
+        <Project />
+        <Contact />
         <Footer />
-      </div>
-    );
+      </>
+    )
   }
 }
-const styles = (theme) => (
-  {
-    app:{
-      height: '100%',
-      backgroundColor: theme.palette.yellow,
-    },
-  }
-)
+const styles = (theme) => ({})
 
-export default withStyles(styles)(App);
+export default withStyles(styles)(App)
